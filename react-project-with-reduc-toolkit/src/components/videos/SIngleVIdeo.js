@@ -1,5 +1,6 @@
 import React from "react";
-
+// import like from "../../images//assets/like.svg";
+// import unlike from "../../images//assets/unlike.svg";
 const SIngleVIdeo = () => {
   return (
     <div className="col-span-full w-full space-y-8 lg:col-span-2">
@@ -28,7 +29,7 @@ const SIngleVIdeo = () => {
           <div className="flex gap-10 w-48">
             <div className="flex gap-1">
               <div className="shrink-0">
-                <img className="w-5 block" src="./assets/like.svg" alt="Like" />
+                <img className="w-5 block" src="" alt="Like" />
               </div>
               <div className="text-sm leading-[1.7142857] text-slate-600">
                 100K
@@ -36,11 +37,7 @@ const SIngleVIdeo = () => {
             </div>
             <div className="flex gap-1">
               <div className="shrink-0">
-                <img
-                  className="w-5 block"
-                  src="./assets/unlike.svg"
-                  alt="Unlike"
-                />
+                <img className="w-5 block" src="" alt="Unlike" />
               </div>
               <div className="text-sm leading-[1.7142857] text-slate-600">
                 100K
